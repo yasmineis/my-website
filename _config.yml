@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Yasmine Israeli"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
@@ -323,3 +323,9 @@ defaults:
       comments: # true
       share: true
       related: true
+
+gems:
+  - jekyll-paginate
+
+paginate: 5 # Adjust the number of posts per page
+paginate_path: "/page:num/"
