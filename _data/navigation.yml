@@ -3,17 +3,19 @@ main:
   # - title: "Quick-Start Guide"
   #   url: /docs/quick-start-guide/
   - title: "About me"
-    url: /about/
+    url: /_pages/about/
   - title: "Education"
-    url: /education/
-  - title: "Work"
-    url: /work/
-  - title: "CV"
-    url: /cv/
+    url: /_pages/education/
+  - title: "Work Experience"
+    url: /_pages/work/
+  - title: "Projects"
+    url: /_pages/projects/
+  - title: "Skills"
+    url: /_pages/skills/
   - title: "Contact"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
-    target: _blank
+    url: /_pages/contact/
+  # - title: "Collections"
+  #   url: /collection-archive/
+  # - title: "External Link"
+  #   url: https://google.com
+  #   target: _blank

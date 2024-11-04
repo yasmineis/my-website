@@ -7,3 +7,48 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.page__inner-wrap p {
+font-size: 16px !important;
+}
+
+.page__inner-wrap h1 {
+font-size: 24px !important;
+}
+
+.page__inner-wrap h2 {
+font-size: 20px; /* Adjust this to your desired size */
+}
+
+.page__inner-wrap h3 {
+font-size: 18px; /* Adjust this to your desired size */
+}
+
+.initial-content p {
+font-size: 16px !important;
+}
+
+.initial-content h1 {
+font-size: 24px !important;
+}
+
+.initial-content h2 {
+font-size: 20px; /* Adjust this to your desired size */
+}
+
+.initial-content h3 {
+font-size: 18px; /* Adjust this to your desired size */
+}
+
+/* For unordered and ordered lists */
+.initial-content ul, .initial-content ol {
+font-size: 16px !important; /* Set font size for list */
+line-height: 1.6; /* Adjust line spacing between items */
+}
+
+/* For list items */
+.initial-content li {
+font-size: 16px !important; /* Set font size for the list items */
+color: #333; /* You can also control color */
+margin-bottom: 10px; /* Adjust spacing between list items */
+}
